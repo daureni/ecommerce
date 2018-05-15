@@ -4,156 +4,124 @@
 		"selected_items":
 		[
 			[
-				"user",
-				"user_"
+				"n",
+				"new_total"
 			],
 			[
-				"is",
-				"is_active"
+				"or",
+				"order_obj"
 			],
 			[
-				"pr",
-				"profile"
+				"car",
+				"cart_total"
 			],
 			[
-				"ac",
-				"activation_key"
-			],
-			[
-				"obj",
-				"objects"
-			],
-			[
-				"u",
-				"user"
-			],
-			[
-				"c",
-				"created"
-			],
-			[
-				"us",
-				"username_to_toggle"
-			],
-			[
-				"Pr",
-				"ProfileManager"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"d",
-				"default_user_profile"
-			],
-			[
-				"fol",
-				"followers"
-			],
-			[
-				"def",
-				"default_user_profile"
+				"shi",
+				"shipping_total"
 			],
 			[
 				"po",
-				"post_save_user_receiver"
+				"post_save_cart_total"
 			],
 			[
-				"Re",
-				"RestaurantLocationQuerySet"
-			],
-			[
-				"r",
-				"return"
-			],
-			[
-				"nam",
-				"name__icontains"
-			],
-			[
-				"get",
-				"get_object"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"marg",
-				"margin-right"
-			],
-			[
-				"ge",
-				"get_object_or_404"
-			],
-			[
-				"I",
-				"Item"
-			],
-			[
-				"__",
-				"__init__"
-			],
-			[
-				"s",
-				"self"
-			],
-			[
-				"Ite",
-				"ItemForm"
-			],
-			[
-				"re",
-				"request"
-			],
-			[
-				"fo",
-				"form_valid"
-			],
-			[
-				"It",
-				"ItemForm"
-			],
-			[
-				"i",
-				"import"
-			],
-			[
-				"for",
-				"form_valid"
-			],
-			[
-				"H",
-				"HttpResponseRedirect"
-			],
-			[
-				"cle",
-				"cleaned_data"
+				"co",
+				"connect"
 			],
 			[
 				"ca",
-				"category__iexact"
+				"cart__id"
 			],
 			[
-				"R",
-				"RestaurantLocation"
+				"pr",
+				"pre_save_create_order_id"
+			],
+			[
+				"ord",
+				"order_new_id"
+			],
+			[
+				"o",
+				"order_new_id"
 			],
 			[
 				"ran",
 				"random_string_generator"
 			],
 			[
-				"rl_",
-				"rl_pre_save_receiver"
+				"O",
+				"ORDER_STATUS_CHOICES"
 			],
 			[
-				"rest",
-				"rest_id"
+				"produc",
+				"product_id"
 			],
 			[
-				"res",
-				"rest_id"
+				"p",
+				"products"
+			],
+			[
+				"P",
+				"ProductDetailSlugView"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"pre",
+				"pre_save_cart_receiver"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"cart",
+				"cart_obj"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"Re",
+				"RegisterView"
+			],
+			[
+				"cle",
+				"cleaned_data"
+			],
+			[
+				"get",
+				"get_user_model"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"ge",
+				"get_context_data"
+			],
+			[
+				"ur",
+				"urls"
 			]
 		]
 	},
@@ -192,63 +160,136 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Home/Dev/ecommerce"
+		"/C/Users/imanbayev_26303/Dev/ecommerce",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/notes",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/tags",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/auth",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/contact"
 	],
 	"file_history":
 	[
-		"/C/Users/Home/Dev/trydjango1-11/src/muypicky/settings/base.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/utils.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/muypicky/urls.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/registration/register.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/forms.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/views.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/models.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/forms.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/forms.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/templates/profiles/user.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/templates/menus/home-feed.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/views.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/models.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/urls.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/templates/profiles/snippet/follow_form.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/models.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/urls.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/shell_commands.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/profiles/admin.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/templates/menus/item_detail.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/urls.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/snippets/nav.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/form.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/snippets/form-snippet.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/templates/restaurants/detail-update.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/views.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/base.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/templates/menus/item_list.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/templates/restaurants/form.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/admin.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/menus/apps.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/validators.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/utils.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/registration/login.html",
-		"/C/Users/Home/Dev/trydjango1-11/.gitignore",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/admin.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/apps.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/muypicky/settings/local.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/muypicky/settings/production.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/snippets/sidebar.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/snippets/js.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/snippets/css.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/home.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/contact.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/muypicky/settings/__init__.py",
-		"/C/Users/Home/Dev/trydjango1-11/src/templates/about.html",
-		"/C/Users/Home/Dev/trydjango1-11/src/restaurants/templates/restaurants/restaurants_list.html"
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/checkout.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/update-cart.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/home.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/notes/checkout_process.md",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/utils.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/tags/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/utils.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/admin.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/detail.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/admin.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/card.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base/navbar.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/bootstrap/example.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/contact/view.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/home_page.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/list.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/templates/profiles/snippet/follow_form.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/models.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/models.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/templates/profiles/user.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/views.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/urls.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/muypicky/urls.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/models.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/forms.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/views.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/urls.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/snippets/form-snippet.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/templates/restaurants/detail-update.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/form.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/templates/restaurants/restaurantlocation_list.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/utils.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/snippets/css.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/snippets/nav.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/snippets/js.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/base.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/templates/registration/register.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/utils.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/forms.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/muypicky/settings/base.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/templates/menus/detail-update.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/urls.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/forms.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/views.py",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/templates/menus/item_detail.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/templates/menus/item_list.html",
+		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/restaurants/templates/restaurants/restaurantlocation_detail.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/restaurants/templates/restaurants/restaurants_list.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/restaurants/models.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/restaurants/views.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/urls.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/snippets/nav.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/snippets/sidebar.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/contact.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/about.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/home.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/restaurants/admin.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/settings/base.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/base.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/snippets/js.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/templates/snippets/css.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/templates/home.html",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/settings/__init__.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/settings/local.py",
+		"/C/Users/imanbayev_26303/Dev/cfehome/src/cfehome/settings/production.py",
+		"/C/My Deals/Work/Python/mysite/products/models.py",
+		"/C/My Deals/Work/Python/mysite/orders/models.py",
+		"/C/My Deals/Work/Python/mysite/landing/models.py",
+		"/C/My Deals/Work/Python/mysite/products/views.py",
+		"/C/My Deals/Work/Python/mysite/products/urls.py",
+		"/C/My Deals/Work/Python/mysite/orders/views.py",
+		"/C/My Deals/Work/Python/mysite/products/admin.py",
+		"/C/My Deals/Work/Python/mysite/orders/urls.py",
+		"/C/My Deals/Work/Python/mysite/orders/admin.py",
+		"/C/My Deals/Work/Python/mysite/mysite/settings.py",
+		"/C/My Deals/Work/Python/mysite/landing/views.py",
+		"/C/My Deals/Work/Python/mysite/landing/forms.py",
+		"/C/My Deals/Work/Python/mysite/landing/admin.py",
+		"/C/My Deals/Work/Python/mysite/static/static_prod/css/style.css",
+		"/C/My Deals/Work/Python/mysite/static/static_prod/css/landing.css",
+		"/C/My Deals/Work/Python/mysite/landing/urls.py",
+		"/C/My Deals/Work/Python/mysite/static/static_dev/css/style.css",
+		"/C/My Deals/Work/Python/mysite/static/static_dev/css/landing.css",
+		"/C/My Deals/Work/Python/mysite/templates/products/product.html",
+		"/C/My Deals/Work/Python/mysite/templates/landing/product_item.html",
+		"/C/My Deals/Work/Python/mysite/templates/landing/landing.html",
+		"/C/My Deals/Work/Python/mysite/templates/landing/home.html",
+		"/C/My Deals/Work/Python/mysite/templates/navbar.html",
+		"/C/My Deals/Work/Python/mysite/mysite/urls.py",
+		"/C/My Deals/Work/Python/mysite/templates/footer.html",
+		"/C/My Deals/Work/Python/mysite/templates/base.html",
+		"/C/My Deals/Work/Python/mysite/manage.py",
+		"/C/My Deals/Work/Python/test/mysite/polls/urls.py",
+		"/C/My Deals/Work/Python/test/mysite/polls/views.py",
+		"/C/My Deals/Work/Python/test/mysite/mysite/settings.py",
+		"/C/My Deals/Work/Python/test/mysite/mysite/urls.py",
+		"/C/My Deals/Work/Python/test/mysite/polls/apps.py"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -263,11 +304,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"reverse",
-			"is_authenticated",
-			"profile_",
-			"create",
-			"object_list"
+			"activate_user_view",
+			"; "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -292,11 +330,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -329,7 +367,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -367,7 +405,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 280.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
