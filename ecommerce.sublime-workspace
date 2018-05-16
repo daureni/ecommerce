@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"redirect_path"
+			],
+			[
+				"is",
+				"is_safe_url"
+			],
+			[
+				"ne",
+				"next_post"
+			],
+			[
 				"n",
 				"new_total"
 			],
@@ -62,10 +74,6 @@
 			[
 				"P",
 				"ProductDetailSlugView"
-			],
-			[
-				"re",
-				"redirect"
 			],
 			[
 				"pre",
@@ -167,40 +175,38 @@
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/tags",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/auth",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/contact"
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders"
 	],
 	"file_history":
 	[
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/checkout.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/update-cart.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/home.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/views.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/home.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/checkout.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/utils.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/forms.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base/navbar.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/settings.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/register.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/login.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/auth/login.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/forms.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/update-cart.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/models.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/notes/checkout_process.md",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/utils.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/urls.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/tags/models.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/models.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/utils.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/admin.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/views.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/detail.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/urls.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/urls.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/admin.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/card.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base/navbar.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/bootstrap/example.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/contact/view.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/home_page.html",
