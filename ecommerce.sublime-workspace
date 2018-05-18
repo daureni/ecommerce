@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"forms"
+			],
+			[
+				"ca",
+				"cart_id"
+			],
+			[
+				"get",
+				"get_or_create"
+			],
+			[
+				"us",
+				"user_created_receiver"
+			],
+			[
 				"re",
 				"redirect_path"
 			],
@@ -38,10 +54,6 @@
 			[
 				"co",
 				"connect"
-			],
-			[
-				"ca",
-				"cart__id"
 			],
 			[
 				"pr",
@@ -104,10 +116,6 @@
 				"cleaned_data"
 			],
 			[
-				"get",
-				"get_user_model"
-			],
-			[
 				"di",
 				"div\tTag"
 			],
@@ -135,6 +143,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/accounts/forms.py",
+			"settings":
+			{
+				"buffer_size": 1127,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/carts/views.py",
+			"settings":
+			{
+				"buffer_size": 1624,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -171,46 +197,61 @@
 		"/C/Users/imanbayev_26303/Dev/ecommerce",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/notes",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/snippets",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/billing",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders"
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base"
 	],
 	"file_history":
 	[
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/models.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/views.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/home.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/snippets/form.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/templates/carts/checkout.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/list.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/card.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/detail.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/update-cart.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/urls.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/views.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base/navbar.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/login.html",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/billing/models.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/billing/admin.py",
+		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/utils.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/forms.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/urls.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/views.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/base/navbar.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/settings.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/register.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/accounts/templates/accounts/login.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/auth/login.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/views.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/ecommerce/forms.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/update-cart.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/models.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/notes/checkout_process.md",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/carts/urls.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/tags/models.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/models.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/utils.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/orders/admin.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/views.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/detail.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/urls.py",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/admin.py",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/snippets/card.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/bootstrap/example.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/contact/view.html",
 		"/C/Users/imanbayev_26303/Dev/ecommerce/src/templates/home_page.html",
-		"/C/Users/imanbayev_26303/Dev/ecommerce/src/products/templates/products/list.html",
 		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/templates/profiles/snippet/follow_form.html",
 		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/profiles/models.py",
 		"/C/Users/imanbayev_26303/Dev/Try-Django-1.11/src/menus/models.py",
@@ -295,7 +336,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -310,6 +351,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ProductListView",
 			"activate_user_view",
 			"; "
 		],
@@ -329,8 +371,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/accounts/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/carts/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1321,
+								1321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
