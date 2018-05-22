@@ -12,21 +12,91 @@
       h1 {
         color: green
       }
+      
+      .description {
+        height: 300px;
+        width: 250px;
+        padding: 30px 10px;
+      }
     </style>
   </head>
   <body>
+
+    <div class='container'>
+      <div class='row'>
+        <div class='col mx-auto'>
+          <h3>Form</h3>
+          <form class='new-content-form' method="POST" action='/some/url/link'>
+            <textarea name='content' class='form-control'></textarea>
+            <input type='submit' value='Save' />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class='formDataSubmitted'>
+      
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+
+
+
     <h1 class='header'>Hello, world!</h1>
     <h1 class='header'>Hello, world!</h1>
-    <h1 class='header' id='header-3'>Hello, world!</h1>
+    <h1 class='header' id='header-3'>Header 3</h1>
     <h1 class='header'>Hello, world!</h1>
-    <p>Paragraph Paragraph Paragraph</p>
+
+    <p class='description'><a href='/abc/'>Some Link</a></p>
+    <p class='description'>Another paragraph</p>
+    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero lectus, eget hendrerit purus elementum non. Quisque a lacinia leo, at bibendum nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vitae feugiat velit. Sed et urna hendrerit, laoreet odio non, pharetra odio. Donec tincidunt ante dolor, et efficitur quam cursus et. Nam posuere sapien quis risus elementum, efficitur semper tellus convallis. Phasellus odio elit, ornare id consequat non, pulvinar et sem. Sed facilisis non erat eget fermentum. In eleifend, dui et interdum elementum, turpis nisi pellentesque tortor, ut tincidunt leo ante vitae libero. Aliquam nec molestie mauris.
+
+Aenean dapibus lacus arcu, at consectetur risus dictum sit amet. Nunc molestie dolor in pellentesque viverra. Integer pretium varius dolor at tincidunt. Curabitur vel risus velit. Curabitur sit amet massa luctus, luctus augue vitae, semper ipsum. Ut egestas, odio eu molestie interdum, velit sapien imperdiet lectus, non interdum lacus nisi ac nisi. Nullam faucibus blandit volutpat. Sed tristique iaculis purus, ac aliquam ex aliquet at. In vehicula ex a nisl rhoncus, sed facilisis diam condimentum. Curabitur sagittis ligula at congue aliquam. Morbi nec ante suscipit, efficitur magna non, posuere nibh.
+
+Nulla et enim feugiat, elementum nulla et, rutrum est. Donec congue libero sed augue viverra, vitae dictum ligula accumsan. Mauris ut sem in lorem vulputate condimentum vel in ligula. Nunc id imperdiet magna. Nam viverra semper semper. Aliquam nibh magna, porta at mattis blandit, tristique eu est. Aenean nec rhoncus lacus. Etiam posuere accumsan tortor, eu mollis eros sodales aliquet. Cras a bibendum dolor. Duis mattis vehicula enim in pulvinar. Fusce ultrices purus ligula, quis ullamcorper diam tempor elementum. Pellentesque at orci blandit, pharetra nisl vel, malesuada lorem. Nullam lobortis ut quam nec tempor. Vivamus est nibh, mollis id enim ac, interdum fermentum mi. Nam justo elit, consectetur molestie rhoncus quis, gravida auctor sapien. Aliquam vehicula, dui a tincidunt ullamcorper, urna lectus volutpat risus, ac ultrices massa metus dapibus tellus.</p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
 
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
       $(document).ready(function(){
+        var num = 124
+        var someString = "some string"
+        var someArray = [num, 782, 21, "test sss"]
+        var someBool = true
+        $.each(someArray, function(index, obj){
+          // console.log(index, obj)
+          if (obj%2 == 0 && someBool) {
+            console.log(obj, "is even")
+          } else if (obj%3 == 0 && someBool) {
+            console.log(obj, "by 3")
+          } else {
+            console.log(obj, "false and/or is not even")
+          }
+        })
+
+
+      })
+    </script> -->
+
+<!--     <script type="text/javascript">
+      $(document).ready(function(){
+
+        var $description = $(".description")
+
+        $description.css("height", "300px").css("width", "250px")
+
+        console.log($description.length)
+        console.log($description.css("height"))
+        console.log($description.height())
+
         setTimeout(function(){
           // $('body').css("background-color", "red")
           $('h1').css("color", "purple")
@@ -36,9 +106,69 @@
         }, 2000)
         
       })
+    </script> -->
+
+<!--     <script type="text/javascript">
+      $(document).ready(function(){
+        var $descriptionItems = $(".description")
+        // console.log($descriptionItems.length) // 0, 1, 2
+
+        $.each($descriptionItems, function(index, obj){
+          var item = $(this)
+          var actualHeight = item[0].scrollHeight
+          var shouldBeHeight = item.height()
+          // console.log(actualHeight, shouldBeHeight)
+          if (actualHeight > shouldBeHeight){
+            item.css("overflow-y", "scroll")
+          }
+          // console.log(index, eachItem.height())
+          // console.log(index, obj)
+        })
+
+        var header3 = $('#header-3')
+        header3.click(function(event){
+          var $this = $(this)
+          console.log($this)
+          console.log(event)
+          window.location.href = 'http://www.google.com/'
+        })
+
+        var descriptionLinks = $('.description a')
+        descriptionLinks.click(function(event){
+          console.log(event)
+          event.preventDefault()
+          var $this = $(this)
+          var href = $this.attr("href") 
+          console.log(href)
+          window.location.href = href
+        })
+
+
+      })
+    </script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var contentForm = $(".new-content-form")
+        contentForm.submit(function(event){
+          event.preventDefault()
+          var $this = $(this)
+          // console.log(contentForm.serialize())
+          var textAreaContent = $this.find('textarea')
+          // console.log(textAreaContent.attr("name"))
+          // console.log(textAreaContent.val())
+          var formMethod = $this.attr("method") // contentForm.attr("method")
+          var formAction = $this.attr("action")
+          var data = {
+            "content": textAreaContent.val(),
+            "method": formMethod,
+            "action": formAction
+          }
+          $('.formDataSubmitted').text(textAreaContent.val() + " method is " + formMethod + ", action is " + formAction)
+          textAreaContent.val("")
+        })
+      })
     </script>
-
-
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
