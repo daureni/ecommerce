@@ -20,6 +20,38 @@
 
     <script>
       $(document).ready(function(){
+        // Auto Search
+        var searchForm = $(".search-form")
+        var searchInput = searchForm.find("[name='q']")
+        var typingTimer;
+        var searchBtn = searchForm.find("[type='submit']")
+
+        searchInput.keyup(function(event){
+          clearTimeout(typingTimer)
+          typingTimer = setTimeout(performSearch, 500)
+        })
+
+        searchInput.keydown(function(event){
+          clearTimeout(typingTimer)
+        })
+
+        function displaySearching(){
+          searchBtn.addClass("disabled")
+          searchBtn.html("<i class='fa fa-spin fa-spinner'></i> Searching...")
+        }
+
+        function performSearch(){
+          displaySearching()
+          var query = searchInput.val()
+          setTimeout(function(){
+            window.location.href = '/search/?q=' + query  
+          }, 1000)
+          
+        }
+
+
+
+        // Cart + Add Products
         var productForm = $(".form-product-ajax")
 
         productForm.submit(function(event){
@@ -30,6 +62,7 @@
           var actionEndPoint = thisForm.attr("data-endpoint");
           var httpMethod = thisForm.attr("method");
           var formData = thisForm.serialize();
+          console.log(formData)
 
           $.ajax({
             url: actionEndPoint,
@@ -63,8 +96,7 @@
           console.log("in current cart")
           var cartTable = $('.cart-table')
           var cartBody = cartTable.find('.cart-body')
-          // cartBody.html("<h1>Changed</h1>")
-          var productRows = cartBody.find(".cart-products")
+          var productRows = cartBody.find(".cart-product")
           var currentUrl = window.location.href
 
           var refreshCartUrl = '/api/cart/'
@@ -75,10 +107,18 @@
             method: refreshCartMethod,
             data: data,
             success: function(data){
-              console.log("success")
-              console.log(data)
+              var hiddenCartItemRemoveForm = $(".cart-item-remove-form")
               if (data.products.length > 0){
-                productRows.html("<tr><td colspan=3>Coming Soon</td></tr>")
+                productRows.html(" ")
+                i = data.products.length
+                $.each(data.products, function(index, value){
+                  console.log(value)
+                  var newCartItemRemove = hiddenCartItemRemoveForm.clone()
+                  newCartItemRemove.css("display", "block")
+                  newCartItemRemove.find(".cart-item-product-id").val(value.id)
+                  cartBody.prepend("<tr><th scope=\"row\">" + i + "</th><td><a href='" + value.url + "'>" + value.name + "</a>" + newCartItemRemove.html() + "</td><td>" + value.price + "</td></tr>")
+                    i --
+                })
                 cartBody.find(".cart-subtotal").text(data.subtotal)
                 cartBody.find(".cart-total").text(data.total)
               } else {
